@@ -1,0 +1,104 @@
+/* Fond général rose très clair (baby pink) */
+body {
+    background-color: #ffe4ee; /* baby pink */
+    color: #222;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encadrement principal blanc */
+.main {
+    width: 80%;
+    margin: 15px auto;
+    background: #fff;
+    padding: 18px 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px #bce6fa80; /* bleu ciel très pâle */
+}
+
+/* Tires principaux bleu ciel */
+h1 {
+    color: #3DB7F3; /* bleu ciel */
+    text-align: center;
+    letter-spacing: 1px;
+}
+h2, h3 {
+    color: #5cc6e9; /* bleu ciel un peu différent */
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* Paragraphes */
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Listes - fond rose pâle, coins arrondis */
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    background: #ffdcec; /* rose encore plus pâle */
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    color: #3DB7F3;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: #e0f7fa;
+    border-radius: 6px;
+}
+
+
+img {
+    border-radius: 10px;
+}
+
+
+table {
+    width: 320px;
+    margin: 15px auto;
+    border-collapse: collapse;
+    background: #e1f5fe; /* bleu ciel pâle */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 10px #bce6fa50;
+}
+th, td {
+    border: 1.5px solid #bce6fa;
+    padding: 8px;
+    text-align: center;
+    background: #fff;
+}
+caption {
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #ef628b; 
+}
+
+button {
+    background: linear-gradient(90deg, #fcbad3 60%, #a2d5f2 100%);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 0;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-weight: bold;
+}
+button:hover {
+    background: linear-gradient(90deg, #a2d5f2 60%, #fcbad3 100%);
+}
+
